@@ -8,12 +8,18 @@
 <body>
 <div>
     <!--TODO add view directive-->
+    <div ng-app="hrApp">
+        <div class="container" ng-view=""></div>
+    </div>
 </div>
 <!--HINT: yellow is wrong -->
 <script type="text/javascript" src="bower_components/jquery/jquery.js"></script>
 <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script type="text/javascript" src="bower_components/angular/angular.js"></script>
 <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/controllers/ColorsController.js"></script>
+<script type="text/javascript" src="scripts/controllers/FormsController.js"></script>
 <!--TODO: load javascript files like libraries or your own scripts-->
 
 </body>
